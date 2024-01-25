@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.App {
+  margin: 0 auto;
+
+}
+
+.icon {
+  text-align: end;
+  padding: 20px 30px;
+
+}
+
+.material-icons {
+  width: 20px;
+}
+
+.card-view {
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list-view {
+  list-style-type: none;
+}
+
+.card {
+  background-color: #fdfafa;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0 0 0 /30%);
+}
+
+.item {
+  background-color: #f4f0f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-right: 25px;
+}
+
+.card_name {
+  text-transform: uppercase;
+}
+
+.card_color {
+  font-size: small;
+}
+
+.img-card {
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  padding: 0 20px;
+}
+
+.card_price {
+  font-size: medium;
+  color: red;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: red;
+  border: 1px solid red;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.item-img {
+  width: 100px;
+  height: 100px;
+}
